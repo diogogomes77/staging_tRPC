@@ -1,0 +1,9 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": false,
+    "eslint.packageManager": "yarn",
+    "eslint.workingDirectories": [
+        "packages/api-server",
+        "packages/client"
+    ]
+}

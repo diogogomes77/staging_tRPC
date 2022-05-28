@@ -1,0 +1,21 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "concurrently": "^7.2.1",
+    "eslint": "^8.16.0",
+    "wsrun": "^5.2.4"
+  },
+  "dependencies": {}
+}
